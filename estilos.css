@@ -1,0 +1,224 @@
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+.contenedor img {
+    width: 150px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.contenedor .texto {
+    max-width: 400px; /* Ancho máximo del texto */
+}
+
+.platos {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+#polloalabrasa{
+ text-align: center;
+}
+
+#mediopollo{
+    text-align: center;
+}
+
+#cuartopollo{
+    text-align: center;
+}
+
+#menu{
+    background: rgb(239, 228, 176);
+}
+
+
+
+
+
+
+.populares{
+
+display: flex;
+align-items: center; /* Alinea verticalmente los elementos */
+gap: 20px; /* Espacio entre la imagen y el texto */
+
+}
+
+.populares img {
+    width: 280px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.populares.texto {
+    max-width: 400px; /* Ancho máximo del texto */
+}
+
+#chaufabrasa{
+
+    text-align: center;
+}
+
+#oferta1{
+
+     text-align: center;
+}
+
+#oferta2{
+
+     text-align: center;
+}
+
+
+.destacados{
+
+display: flex;
+align-items: center; /* Alinea verticalmente los elementos */
+gap: 20px; /* Espacio entre la imagen y el texto */
+
+}
+
+.destacados img {
+    width: 280px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.destacados.texto {
+    max-width: 400px; /* Ancho máximo del texto */
+}
+
+#mediaparilla{
+
+    text-align: center;
+}
+
+#piqueo{
+
+     text-align: center;
+}
+
+#alopobre{
+
+     text-align: center;
+}
+
+footer{
+
+
+    background:red;
+    padding-top: 50px;
+}
+
+.container{
+
+    width: 680px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+h3{
+
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.footer-content p{
+
+    width: 190;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul{
+
+
+    text-align: center;
+}
+
+.list{
+
+    padding: 0px;
+
+}
+
+.list li{
+
+
+    width: auto;
+    text-align: left;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+    
+
+}
+
+.list li::before{
+
+    content: '';
+    position: absolute;
+    transform: translate(-50px,-50px);
+    left: 50%;
+    top: 200%;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition-duration: .7s;
+}
+
+.list li:hover::before{
+
+    width: 70px;
+}
+
+.social-icons{
+
+    text-align: center;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.social-icons li{
+
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons img{
+
+    width: 30px;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: #f18930;
+}
+
+.bottom-bar{
+
+    background: white ;
+    text-align: center;
+    padding:  10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar  p{
+
+    background: #343434 ;
+    margin: 0;
+font-size:  16px;
+    padding: 7px;
+}
